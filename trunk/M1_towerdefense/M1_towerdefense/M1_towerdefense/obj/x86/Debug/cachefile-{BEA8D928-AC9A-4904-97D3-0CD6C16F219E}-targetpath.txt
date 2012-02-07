@@ -1,1 +1,6 @@
 Content\terrain.xnb
+Content\background.xnb
+Content\blank.xnb
+Content\gradient.xnb
+Content\gamefont.xnb
+Content\menufont.xnb

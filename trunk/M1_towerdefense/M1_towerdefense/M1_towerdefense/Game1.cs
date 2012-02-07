@@ -23,11 +23,31 @@ namespace M1_towerdefense
         OrbitCamera Camera;
         Matrix View;
         Matrix Projection;
+        ScreenManager screenManager;
+
+        // By preloading any assets used by UI rendering, we avoid framerate glitches
+        // when they suddenly need to be loaded in the middle of a menu transition.
+        static readonly string[] preloadAssets =
+        {
+            "gradient",
+        };
 
         public Game1()
         {
-            graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+
+            graphics = new GraphicsDeviceManager(this);
+            graphics.PreferredBackBufferWidth = 853;
+            graphics.PreferredBackBufferHeight = 480;
+
+            // Create the screen manager component.
+            screenManager = new ScreenManager(this);
+
+            Components.Add(screenManager);
+
+            // Activate the first screens.
+            screenManager.AddScreen(new BackgroundScreen(), null);
+            screenManager.AddScreen(new MainMenuScreen(), null);
         }
 
         /// <summary>
@@ -74,6 +94,11 @@ namespace M1_towerdefense
 
             // TODO: use this.Content to load your game content here
             this.le_terrain = Content.Load<Model>("terrain");
+
+            foreach (string asset in preloadAssets)
+            {
+                Content.Load<object>(asset);
+            }
         }
 
         /// <summary>
@@ -118,4 +143,16 @@ namespace M1_towerdefense
             base.Draw(gameTime);
         }
     }
+
+
+   /* static class Program
+    {
+        static void Main()
+        {
+            using (GameStateManagementGame game = new GameStateManagementGame())
+            {
+                game.Run();
+            }
+        }
+    }*/
 }
