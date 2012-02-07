@@ -7,11 +7,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\PROMETHEE\Desktop\M1_towerdefense\M1_towerdefense\M1_towerdefense\bin\x86\Debug\Content\terrain.xnb</Output>
+      <Output>C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefense\bin\x86\Debug\Content\terrain.xnb</Output>
       <Time>2012-01-18T21:38:52.5646+01:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\terrain_0.xml</Key>
-        <Value>2012-01-18T22:10:28.5334+01:00</Value>
+        <Value>2012-02-07T00:37:59.0078+01:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -21,16 +21,61 @@
       <Output>obj\x86\Debug\terrain_0.xml</Output>
       <Time>2012-01-18T21:38:52.5646+01:00</Time>
     </Item>
+    <Item>
+      <Source>background.png</Source>
+      <Name>background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefense\bin\x86\Debug\Content\background.xnb</Output>
+      <Time>2012-02-07T00:37:45.4748+01:00</Time>
+    </Item>
+    <Item>
+      <Source>blank.png</Source>
+      <Name>blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefense\bin\x86\Debug\Content\blank.xnb</Output>
+      <Time>2012-02-07T00:35:24.7848+01:00</Time>
+    </Item>
+    <Item>
+      <Source>gradient.png</Source>
+      <Name>gradient</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefense\bin\x86\Debug\Content\gradient.xnb</Output>
+      <Time>2012-02-07T00:33:58.8618+01:00</Time>
+    </Item>
+    <Item>
+      <Source>gamefont.spritefont</Source>
+      <Name>gamefont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefense\bin\x86\Debug\Content\gamefont.xnb</Output>
+      <Time>2010-09-15T14:43:52+02:00</Time>
+    </Item>
+    <Item>
+      <Source>menufont.spritefont</Source>
+      <Name>menufont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefense\bin\x86\Debug\Content\menufont.xnb</Output>
+      <Time>2010-09-15T14:43:52+02:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\PROMETHEE\Desktop\M1_towerdefense\M1_towerdefense\M1_towerdefenseContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\PROMETHEE\Desktop\M1_towerdefense\M1_towerdefense\M1_towerdefense\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\PROMETHEE\Desktop\M1_towerdefense\M1_towerdefense\M1_towerdefenseContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\PROMETHEE\Desktop\M1_towerdefense\M1_towerdefense\M1_towerdefense\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefenseContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefense\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefenseContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefense\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

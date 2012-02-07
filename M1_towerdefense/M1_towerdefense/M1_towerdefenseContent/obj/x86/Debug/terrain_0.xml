@@ -3,7 +3,7 @@
   <Asset Type="Graphics:MeshContent">
     <Name>Plan001</Name>
     <Identity>
-      <SourceFilename>C:\Users\PROMETHEE\Desktop\M1_towerdefense\M1_towerdefense\M1_towerdefenseContent\terrain.FBX</SourceFilename>
+      <SourceFilename>C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefenseContent\terrain.FBX</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <OpaqueData>

@@ -5,3 +5,15 @@ C:\Users\PROMETHEE\Desktop\M1_towerdefense\M1_towerdefense\M1_towerdefense\obj\x
 C:\Users\PROMETHEE\Desktop\M1_towerdefense\M1_towerdefense\M1_towerdefense\obj\x86\Debug\M1_towerdefense.exe
 C:\Users\PROMETHEE\Desktop\M1_towerdefense\M1_towerdefense\M1_towerdefense\obj\x86\Debug\M1_towerdefense.pdb
 C:\Users\PROMETHEE\Desktop\M1_towerdefense\M1_towerdefense\M1_towerdefense\bin\x86\Debug\Content\terrain.xnb
+C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefense\bin\x86\Debug\Content\terrain.xnb
+C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefense\bin\x86\Debug\M1_towerdefense.exe
+C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefense\bin\x86\Debug\M1_towerdefense.pdb
+C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefense\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefense\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefense\obj\x86\Debug\M1_towerdefense.exe
+C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefense\obj\x86\Debug\M1_towerdefense.pdb
+C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefense\bin\x86\Debug\Content\background.xnb
+C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefense\bin\x86\Debug\Content\blank.xnb
+C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefense\bin\x86\Debug\Content\gradient.xnb
+C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefense\bin\x86\Debug\Content\gamefont.xnb
+C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefense\bin\x86\Debug\Content\menufont.xnb
