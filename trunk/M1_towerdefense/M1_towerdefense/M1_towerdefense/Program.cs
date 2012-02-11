@@ -12,7 +12,8 @@ namespace M1_towerdefense
         /// </summary>
         static void Main(string[] args)
         {
-            using (Game1 game = new Game1())
+            //using (Game1 game = new Game1())
+            using (ChaseCameraGame game = new ChaseCameraGame())
             {
                 game.Run();
             }
