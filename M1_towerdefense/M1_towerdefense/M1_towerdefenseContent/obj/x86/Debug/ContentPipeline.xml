@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
       <Source>terrain.FBX</Source>
@@ -65,6 +65,52 @@
       <Options>None</Options>
       <Output>C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefense\bin\x86\Debug\Content\menufont.xnb</Output>
       <Time>2010-09-15T14:43:52+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Ground.x</Source>
+      <Name>Ground</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefense\bin\x86\Debug\Content\Ground.xnb</Output>
+      <Time>2010-09-13T12:40:50+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Ground_0.xml</Key>
+        <Value>2012-02-11T23:18:15.289+01:00</Value>
+      </Dependency>
+      <Request>C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefense\bin\x86\Debug\Content\Checker_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Ground.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Ground_0.xml</Output>
+      <Time>2010-09-13T12:40:50+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Checker.bmp</Source>
+      <Name>Checker</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefense\bin\x86\Debug\Content\Checker.xnb</Output>
+      <Time>2010-09-13T12:40:50+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Checker.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefense\bin\x86\Debug\Content\Checker_0.xnb</Output>
+      <Time>2010-09-13T12:40:50+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

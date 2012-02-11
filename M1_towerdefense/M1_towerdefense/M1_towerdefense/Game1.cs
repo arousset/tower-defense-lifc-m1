@@ -20,7 +20,7 @@ namespace M1_towerdefense
         SpriteBatch spriteBatch;
         Model le_terrain;
 
-        OrbitCamera Camera;
+
         Matrix View;
         Matrix Projection;
         ScreenManager screenManager;
@@ -70,17 +70,12 @@ namespace M1_towerdefense
             //this.graphics.SynchronizeWithVerticalRetrace = false;
             this.graphics.ApplyChanges();
 
-            this.Camera = new OrbitCamera(this);
-            this.Camera.Position = new Vector3(-1, 8, 0);
-            this.Camera.Target = new Vector3(0, 0, -1);
-            this.Camera.UpVector = new Vector3(1, 2, 0);
-            this.Camera.Distance = 1.5f;
-            this.Components.Add(this.Camera);
+           /*
 
             
             this.View = Matrix.CreateLookAt(this.Camera.Position, this.Camera.Target, this.Camera.UpVector);
             this.Projection = Matrix.CreatePerspectiveFieldOfView(MathHelper.PiOver4, this.GraphicsDevice.Viewport.Width / this.GraphicsDevice.Viewport.Height, 0.001f, 100.0f);
-
+            */
         }
 
         /// <summary>
@@ -95,10 +90,10 @@ namespace M1_towerdefense
             // TODO: use this.Content to load your game content here
             this.le_terrain = Content.Load<Model>("terrain");
 
-            foreach (string asset in preloadAssets)
+           /* foreach (string asset in preloadAssets)
             {
                 Content.Load<object>(asset);
-            }
+            }*/
         }
 
         /// <summary>
@@ -122,7 +117,7 @@ namespace M1_towerdefense
                 this.Exit();
 
             // TODO: Add your update logic here
-            this.View = Matrix.CreateLookAt(this.Camera.Position, this.Camera.Target, this.Camera.UpVector);
+            //this.View = Matrix.CreateLookAt(this.Camera.Position, this.Camera.Target, this.Camera.UpVector);
 
 
             base.Update(gameTime);
@@ -134,9 +129,9 @@ namespace M1_towerdefense
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.BlendState = BlendState.Opaque;
+           /* GraphicsDevice.BlendState = BlendState.Opaque;
             GraphicsDevice.DepthStencilState = DepthStencilState.Default;
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.CornflowerBlue);*/
 
             // TODO: Add your drawing code here
             this.le_terrain.Draw(Matrix.Identity, this.View, this.Projection);

@@ -17,3 +17,6 @@ C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense
 C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefense\bin\x86\Debug\Content\gradient.xnb
 C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefense\bin\x86\Debug\Content\gamefont.xnb
 C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefense\bin\x86\Debug\Content\menufont.xnb
+C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefense\bin\x86\Debug\Content\Ground.xnb
+C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefense\bin\x86\Debug\Content\Checker.xnb
+C:\Users\PROMETHEE\Desktop\tower-defense-lifc-m1\M1_towerdefense\M1_towerdefense\M1_towerdefense\bin\x86\Debug\Content\Checker_0.xnb
